@@ -104,7 +104,7 @@ export default function page({ params }: { params: { id: string } }) {
         
     }
 ]
-    const [current, setCurrent] = useState(params.id);
+    const [current, setCurrent] = useState<any>(params.id);
   return (
     <div>
       <div className='md:flex  justify-around'>
