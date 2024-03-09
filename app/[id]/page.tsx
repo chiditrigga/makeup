@@ -108,9 +108,10 @@ export default function page({ params }: { params: { id: string } }) {
     const current:any = (params.id)
   return (
     <div>
+      <h3 className=' font-bold text-2xl p-3 md:hidden'>{list[current].des} </h3>
       <div className='md:flex  justify-around'>
        <div><Image alt='' src={list[current].pic} className='p-3'/></div>
-       <div className=' text-start p-3'> <h3 className=' font-bold text-2xl py-3'>{list[current].des} </h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam voluptatibus ut minus excepturi pariatur dolores rem, totam, quisquam magnam amet deleniti vero iusto! Quibusdam pariatur, magni quia quos deserunt necessitatibus! </div>
+       <div className=' text-start p-3'> <h3 className=' font-bold text-2xl py-3 hidden md:block'>{list[current].des} </h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam voluptatibus ut minus excepturi pariatur dolores rem, totam, quisquam magnam amet deleniti vero iusto! Quibusdam pariatur, magni quia quos deserunt necessitatibus! </div>
        
       
 
