@@ -150,7 +150,7 @@ export default function Home() {
                       </span>
                       <span>6 Dec 2023</span>
                     </div>
-                    <p className="pt-3 pb-1">A Woman's lifestyle journal</p>
+                    <p className="pt-3 pb-1">A Womans lifestyle journal</p>
                   </div>{" "}
                 </div>
               </div>
@@ -187,12 +187,12 @@ export default function Home() {
 <div className="border-b-2 py-8 border-[#c9c9c9]"></div>
           <div className="md:flex justify-between xl:mx-[10vw] md:mx-[3px] pt-10">
             <div className="md:max-w-[50%] p-3">
-              <p className="text-2xl md:text-4xl">Welcome, I'm Caroline</p>
+              <p className="text-2xl md:text-4xl">Welcome, Im Caroline</p>
               <br />
               <h3 className="py-2 pb-3">
-                My name is Carolina, and I'm delighted to invite you into the
+                My name is Carolina, and Im delighted to invite you into the
                 captivating chapters of my lifestyle journey. Here, within the
-                pages of my blog, you'll discover a harmonious blend of beauty,
+                pages of my blog, youll discover a harmonious blend of beauty,
                 fashion, wellness, and the art of mindful living. Join me as we
                 navigate the vibrant realms of curated fashion, where personal
                 style meets expression.{" "}
@@ -200,14 +200,14 @@ export default function Home() {
               <h3>
                 Unveil the secrets of my wellness rituals, each designed to
                 embrace a holistic approach to beauty from the inside out.
-                Together, let's explore the soulful art of mindful living, where
+                Together, lets explore the soulful art of mindful living, where
                 every moment becomes an opportunity to dance with style, embrace
                 grace, and uncover the enchantment in the ordinary.
               </h3>
               <h3 className="py-3">
                 These pages are not just a blog but a sanctuary for those
                 seeking inspiration for a life well-lived, adorned with beauty,
-                curated fashion, and the essence of mindful elegance. I'm
+                curated fashion, and the essence of mindful elegance. Im
                 thrilled to share this journey with you
               </h3>
             </div>
